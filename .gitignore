@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencias de Node.js
+node_modules/
+.pnp
+.pnp.js
+
+# Archivos de salida del frontend y backend
+dist/
+build/
+out/
+
+# SSR / Next.js
+.next/
+.nuxt/
+.svelte-kit/
+
+# Archivos de entorno (variables de configuración)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache de paquetes
+.npm/
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Docker (si usas)
+docker-compose.override.yml
+.dockerignore
+
+# Archivos de TypeScript generados
+*.tsbuildinfo
+
+# Monorepos (Turborepo, Nx, etc.)
+.turbo/
+nx-cache/
+
+# Archivos específicos del backend
+coverage/
